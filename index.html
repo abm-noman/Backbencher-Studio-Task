@@ -15,7 +15,7 @@
   <body>
     <!-- Navbar -->
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute w-100 top-0 px-4 py-3"
+      class="navbar navbar-expand-lg navbar-light bg-white position-absolute w-100 top-0 px-4 py-3"
     >
       <div class="container-fluid">
         <a class="navbar-brand fw-bold text-orange" href="#">logo</a>
@@ -47,20 +47,331 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero-section d-flex align-items-center text-white">
-      <div class="container text-start">
-        <span class="badge bg-white text-dark mb-3"
-          >✅ 25K+ Happy Customers</span
-        >
-        <h1 class="display-5 fw-bold">Breathe better,<br />live better!</h1>
-        <p class="lead">
-          Discover how effortless breathing can enhance your life.<br />Take the
-          first step Today!
-        </p>
-        <a href="#" class="btn btn-orange btn-lg mt-3">Shop Now →</a>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="customer-badge">
+            <div class="avatars">
+              <img
+                src="https://i.pravatar.cc/30?img=1"
+                alt="Customer 1"
+                class="avatar"
+              />
+              <img
+                src="https://i.pravatar.cc/30?img=2"
+                alt="Customer 2"
+                class="avatar"
+              />
+              <img
+                src="https://i.pravatar.cc/30?img=3"
+                alt="Customer 3"
+                class="avatar"
+              />
+            </div>
+            <span>26k Happy Customers</span>
+          </div>
+
+          <h1 class="display-3 text-white fw-bold">
+            Breathe better,<br />live better!
+          </h1>
+
+          <p class="lead text-white-50 my-4">
+            Discover how effortless breathing can enhance your life. <br />Take
+            the first step Today!
+          </p>
+
+          <a href="#" class="btn btn-orange btn-lg">Shop Now &rarr;</a>
+        </div>
       </div>
     </section>
 
+    <!-- Product Section -->
+    <section class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
+          <!-- Product Image Column -->
+          <div class="w-full lg:w-1/2 flex flex-col items-center">
+            <div
+              class="product-image-container w-full max-w-md p-8 rounded-2xl shadow-lg flex justify-center items-center mb-6"
+            >
+              <img
+                src="img/Group 4.png"
+                alt="Noseclip main image"
+                class="w-full h-auto max-h-96 object-contain rounded-lg"
+              />
+            </div>
+            <!-- Thumbnail Images -->
+            <div class="flex space-x-4 justify-center">
+              <img
+                src="img/Group 5.jpg"
+                alt="Noseclip thumbnail 1"
+                class="w-20 h-20 rounded-lg border-2 border-orange-custom cursor-pointer object-cover"
+              />
+              <img
+                src="img/Group 6.jpg"
+                alt="Noseclip thumbnail 2"
+                class="w-20 h-20 rounded-lg border-2 border-transparent hover:border-orange-custom transition-colors cursor-pointer object-cover"
+              />
+              <img
+                src="img/Group 7.jpg"
+                alt="Noseclip thumbnail 3"
+                class="w-20 h-20 rounded-lg border-2 border-transparent hover:border-orange-custom transition-colors cursor-pointer object-cover"
+              />
+              <img
+                src="img/Group 8.jpg"
+                alt="Noseclip thumbnail 4"
+                class="w-20 h-20 rounded-lg border-2 border-transparent hover:border-orange-custom transition-colors cursor-pointer object-cover"
+              />
+            </div>
+          </div>
+
+          <!-- Product Details Column -->
+          <div class="w-full lg:w-1/2">
+            <!-- Rating -->
+            <div class="flex items-center mb-2">
+              <div class="flex text-yellow-400">
+                <!-- Star Icons -->
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </div>
+              <span class="text-gray-600 ml-2 text-sm">(500+ Reviews)</span>
+            </div>
+
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">Noseclip</h2>
+
+            <!-- Price -->
+            <div class="flex items-center mb-6">
+              <span class="text-orange-custom text-3xl font-bold mr-3"
+                >$12.00</span
+              >
+              <span class="text-gray-500 line-through text-xl mr-3"
+                >$20.00</span
+              >
+              <span
+                class="bg-orange-custom text-white text-xs font-semibold px-3 py-1 rounded-full"
+                >SAVE 10%</span
+              >
+            </div>
+
+            <!-- Description -->
+            <div class="product-description text-gray-700 leading-relaxed mb-6">
+              <h3 class="text-lg font-semibold mb-2">Description:</h3>
+              <p class="mb-4">
+                A nasal clip is a small device typically used to pinch or secure
+                the nostrils for various purposes, such as during sports,
+                medical treatments, or personal health practices. It is usually
+                made of flexible or padded materials to ensure comfort and a
+                secure fit. Common uses include:
+              </p>
+              <ul>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Boost performance
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Stop snoring
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Optimized Airflow
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  100% Drug Free
+                </li>
+              </ul>
+            </div>
+
+            <!-- Add to Cart Button -->
+            <button
+              class="bg-orange-custom text-white w-full py-4 rounded-full text-xl font-semibold shadow-xl hover:bg-orange-custom transition-colors duration-300 transform hover:scale-105 mb-6"
+            >
+              Add to Card &rarr;
+            </button>
+
+            <!-- Payment Methods -->
+            <div class="flex flex-wrap items-center justify-center gap-4 mb-8">
+              <img
+                src="https://www.apple.com/v/apple-pay/a/images/overview/icon_apple_pay__c45t17y94z26_large.svg"
+                alt="Apple Pay"
+                class="h-8"
+                onerror="this.onerror=null;this.src='https://placehold.co/60x32?text=ApplePay';"
+              />
+              <img
+                src="https://www.gstatic.com/images/branding/product/2x/gpay_2020q4_48dp.png"
+                alt="Google Pay"
+                class="h-8"
+                onerror="this.onerror=null;this.src='https://placehold.co/60x32?text=GPay';"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/1200px-MasterCard_Logo.svg.png"
+                alt="Mastercard"
+                class="h-8"
+                onerror="this.onerror=null;this.src='https://placehold.co/60x32?text=Mastercard';"
+              />
+              <img
+                src="https://cdn.shopify.com/s/files/1/0070/3666/3430/files/shopify-payments.png?v=1614343132"
+                alt="Shop Pay"
+                class="h-8"
+                onerror="this.onerror=null;this.src='https://placehold.co/60x32?text=ShopPay';"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/1200px-Visa_Inc._logo.svg.png"
+                alt="Visa"
+                class="h-8"
+                onerror="this.onerror=null;this.src='https://placehold.co/60x32?text=Visa';"
+              />
+            </div>
+
+            <!-- Accordion Sections -->
+            <div class="space-y-4">
+              <details>
+                <summary>
+                  Sizing information
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </summary>
+                <p>
+                  Detailed sizing information for the Noseclip. Please refer to
+                  our sizing chart to find your perfect fit. We offer various
+                  sizes to ensure maximum comfort and effectiveness.
+                </p>
+              </details>
+
+              <details>
+                <summary>
+                  Free resizing
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </summary>
+                <p>
+                  We offer free resizing services for your Noseclip within 30
+                  days of purchase. Contact our customer support to arrange a
+                  resizing.
+                </p>
+              </details>
+
+              <details>
+                <summary>
+                  Money back guarantee & free returns
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </summary>
+                <p>
+                  Your satisfaction is our priority. If you're not completely
+                  happy with your Noseclip, you can return it within 60 days for
+                  a full refund. Free return shipping included.
+                </p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
