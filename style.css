@@ -102,3 +102,83 @@ body {
   left: 0;
   font-weight: bold;
 }
+.how-it-works,
+.start-kit {
+  background-color: #5b2600; /* same as previous sections */
+}
+
+.bg-orange {
+  background-color: #ff6a00;
+}
+
+.bg-dark-orange {
+  background-color: #803800;
+}
+
+.text-orange {
+  color: #ff6a00;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.4em 0.6em;
+}
+.real-results {
+  background-color: #fff; /* white section */
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.4em 0.6em;
+}
+
+.icon-x::before {
+  content: "✖";
+  color: #666;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.icon-check::before {
+  content: "✔";
+  color: #ff6a00;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+.video-science-section {
+  background-color: #5a2600; /* deep brown */
+}
+
+.video-thumbnail {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.video-thumbnail img {
+  transition: transform 0.3s ease;
+}
+
+.video-thumbnail:hover img {
+  transform: scale(1.05);
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  padding: 0.5rem 0.7rem;
+  line-height: 1;
+}
+
+.icon-check::before {
+  content: "✔";
+  color: #ff6a00;
+  font-weight: bold;
+}
