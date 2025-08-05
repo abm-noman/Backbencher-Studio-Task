@@ -71,55 +71,34 @@ body {
     padding-left: 4rem; /* More padding on larger screens */
   }
 }
-
-/* Product Section Specific Styles */
-.product-image-container {
-  background-color: #fcefe4; /* Light orange background for the image */
+.btn-outline-orange {
+  border: 2px solid #ff6a00;
+  color: #ff6a00;
+  background-color: transparent;
+}
+.btn-outline-orange:hover {
+  background-color: #ff6a00;
+  color: white;
 }
 
-.product-description ul li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.5rem;
+.card {
+  border-radius: 20px;
+}
+.pain-solution-section {
+  background-color: #5b2600; /* Deep brown background */
 }
 
-.product-description ul li svg {
-  margin-right: 0.5rem;
-  color: #ff6a00; /* Orange color for checkmarks */
+.orange-bullets li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  color: #fff;
 }
 
-/* Accordion styles for details/summary */
-details {
-  border-bottom: 1px solid #e5e7eb; /* Light gray border */
-  padding: 1rem 0;
-}
-
-details summary {
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 600;
-  color: #374151; /* Darker gray text */
-}
-
-details summary::marker {
-  display: none; /* Hide default marker */
-}
-
-details summary::-webkit-details-marker {
-  display: none; /* Hide default marker for webkit browsers */
-}
-
-details summary svg {
-  transition: transform 0.2s ease-in-out;
-}
-
-details[open] summary svg {
-  transform: rotate(180deg);
-}
-
-details p {
-  padding-top: 1rem;
-  color: #6b7280; /* Medium gray text */
+.orange-bullets li::before {
+  content: "✔";
+  color: #ff6a00;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
 }
