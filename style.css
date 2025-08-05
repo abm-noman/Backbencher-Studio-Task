@@ -1,0 +1,16 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.text-orange {
+  color: #ff6a00;
+}
+
+.btn-orange {
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+}
+.btn-orange:hover {
+  background-color: #e55b00;
+}
